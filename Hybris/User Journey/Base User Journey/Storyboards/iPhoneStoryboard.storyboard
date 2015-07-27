@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="hX1-Hu-AJL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="hX1-Hu-AJL">
     <dependencies>
         <deployment version="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Product Detail View Controller - Product-->
+        <!--Product-->
         <scene sceneID="BKf-r6-7sJ">
             <objects>
                 <viewController storyboardIdentifier="HYProductDetailViewController" title="Product" id="VhG-Pp-VGs" customClass="HYProductDetailViewController" sceneMemberID="viewController">
@@ -19,7 +19,7 @@
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="deviceRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Name Cell" rowHeight="44" id="bNr-xY-ABx" customClass="HYProductNameCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bNr-xY-ABx" id="ajd-gR-YZl">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -39,7 +39,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Price Cell" rowHeight="58" id="06H-MN-5VJ" customClass="HYProductPriceCell">
-                                        <rect key="frame" x="0.0" y="130" width="320" height="58"/>
+                                        <rect key="frame" x="0.0" y="66" width="320" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="06H-MN-5VJ" id="Aqq-I8-XQH">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
@@ -99,7 +99,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Promotion Cell" rowHeight="55" id="XWN-fe-DWI" customClass="HYProductPromotionCell">
-                                        <rect key="frame" x="0.0" y="188" width="320" height="55"/>
+                                        <rect key="frame" x="0.0" y="124" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XWN-fe-DWI" id="pjI-Tg-5Vh">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
@@ -120,7 +120,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="All Reviews Cell" rowHeight="44" id="2ry-cs-Fhm" customClass="HYAllReviewsCell">
-                                        <rect key="frame" x="0.0" y="243" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="179" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2ry-cs-Fhm" id="h3R-aZ-LA2">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
@@ -155,7 +155,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Image Cell" rowHeight="208" id="gWa-9d-Q0h" customClass="HYProductImageCell">
-                                        <rect key="frame" x="0.0" y="287" width="320" height="208"/>
+                                        <rect key="frame" x="0.0" y="223" width="320" height="208"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gWa-9d-Q0h" id="jdQ-WX-dFl">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="208"/>
@@ -191,7 +191,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Variant Selection Cell" rowHeight="45" id="a76-GN-ben" userLabel="Product Variant Cell" customClass="HYProductVariantCell">
-                                        <rect key="frame" x="0.0" y="495" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="431" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a76-GN-ben" id="Cgl-WG-Anx">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
@@ -229,7 +229,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Add Cell" rowHeight="51" id="E68-IC-PDN" customClass="HYProductAddCell">
-                                        <rect key="frame" x="0.0" y="540" width="320" height="51"/>
+                                        <rect key="frame" x="0.0" y="476" width="320" height="51"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E68-IC-PDN" id="3mS-ZV-Bvo">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
@@ -257,10 +257,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Product Description Cell" rowHeight="100" id="QXz-fS-Sgr" customClass="HYProductDescriptionCell">
-                                        <rect key="frame" x="0.0" y="591" width="320" height="100"/>
+                                        <rect key="frame" x="0.0" y="527" width="320" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QXz-fS-Sgr" id="sAd-wU-yIa">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="99"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Product description" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eMu-c1-hya" customClass="HYLabel">
@@ -278,10 +278,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Product Classification Cell" id="pMU-DJ-A6C" customClass="HYBasicCell">
-                                        <rect key="frame" x="0.0" y="691" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="627" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pMU-DJ-A6C" id="dX9-H4-nEv">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="More Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PeF-8l-YOo" customClass="HYLabel">
@@ -299,10 +299,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Product Delivery Cell" id="HbM-NS-2aY" customClass="HYBasicCell">
-                                        <rect key="frame" x="0.0" y="735" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="671" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HbM-NS-2aY" id="c3f-va-tte">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Delivery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="af9-la-rd4" customClass="HYLabel">
@@ -320,10 +320,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Share Cell" rowHeight="54" id="oG8-Rm-rgM" customClass="HYProductShareCell">
-                                        <rect key="frame" x="0.0" y="779" width="320" height="54"/>
+                                        <rect key="frame" x="0.0" y="715" width="320" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oG8-Rm-rgM" id="HxQ-ga-wxR">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mx9-n2-1Sg">
@@ -415,7 +415,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="HYReviewCell" rowHeight="216" id="dl9-sl-7gg" customClass="HYReviewCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="216"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="216"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dl9-sl-7gg" id="P8R-Zj-FUo">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
@@ -783,7 +783,7 @@ Of Text</string>
             </objects>
             <point key="canvasLocation" x="-1375" y="-5173"/>
         </scene>
-        <!--Cart View Controller - Your Basket-->
+        <!--Your Basket-->
         <scene sceneID="zJa-Id-Y96">
             <objects>
                 <viewController id="OW0-oK-zbF" customClass="HYCartViewController" sceneMemberID="viewController">
@@ -823,7 +823,7 @@ Of Text</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="Hybris Cart Cell" rowHeight="160" id="Pre-f0-9bg" customClass="HYCartCell">
-                                        <rect key="frame" x="0.0" y="127" width="320" height="160"/>
+                                        <rect key="frame" x="0.0" y="63" width="320" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pre-f0-9bg" id="dxH-lM-ym2">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
@@ -910,7 +910,7 @@ Name</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Product Promotion Cell" rowHeight="44" id="V8l-i5-rzU" customClass="HYProductPromotionCell">
-                                        <rect key="frame" x="0.0" y="287" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="223" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V8l-i5-rzU" id="DYB-nx-wWd">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1125,7 +1125,7 @@ Name</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Hybris Delivery Mode Cell" rowHeight="74" id="GjK-t9-t5q" customClass="HYDeliveryModeCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="74"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GjK-t9-t5q" id="SVZ-hR-i85">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
@@ -1176,7 +1176,7 @@ Name</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Hybris Payment Method Cell" id="RF5-b8-lQI" customClass="HYPaymentMethodCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RF5-b8-lQI" id="r7t-mA-87u">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1254,7 +1254,7 @@ Name</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Hybris Checkout Normal Cell" id="gJH-fG-Th2" customClass="HYCheckoutNormalCell">
-                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="158" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gJH-fG-Th2" id="X9h-YJ-XnK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1279,7 +1279,7 @@ Name</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Hybris Checkout Details Cell" id="9HZ-V4-C6i" customClass="HYCheckoutDetailsCell">
-                                        <rect key="frame" x="0.0" y="207" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="202" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9HZ-V4-C6i" id="L7C-JN-pGC">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1312,7 +1312,7 @@ Name</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Hybris Summary Cell" rowHeight="83" id="1VF-zB-Nzj" customClass="HYCheckoutSummaryCell">
-                                        <rect key="frame" x="0.0" y="251" width="320" height="83"/>
+                                        <rect key="frame" x="0.0" y="246" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1VF-zB-Nzj" id="6Ew-sE-iWb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
@@ -1440,7 +1440,7 @@ Name</string>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="deviceRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Sort Cell" id="M33-B5-2OZ">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M33-B5-2OZ" id="d62-sD-LRD">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1448,7 +1448,7 @@ Name</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Filter Cell" textLabel="OiP-8u-ptR" detailTextLabel="hEr-7r-IUY" style="IBUITableViewCellStyleSubtitle" id="SAb-Lg-prS">
-                                        <rect key="frame" x="0.0" y="163" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="94" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SAb-Lg-prS" id="ron-jc-gQO">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1502,7 +1502,7 @@ Name</string>
             </objects>
             <point key="canvasLocation" x="812" y="-4402"/>
         </scene>
-        <!--Navigation View Controller - Shop-->
+        <!--Shop-->
         <scene sceneID="4Rp-MQ-ri9">
             <objects>
                 <navigationController id="DUQ-f8-Psn" customClass="HYNavigationViewController" sceneMemberID="viewController">
@@ -1522,7 +1522,7 @@ Name</string>
             </objects>
             <point key="canvasLocation" x="-390" y="-5173"/>
         </scene>
-        <!--Navigation View Controller - Stores-->
+        <!--Stores-->
         <scene sceneID="HzD-d0-SFA">
             <objects>
                 <navigationController definesPresentationContext="YES" id="fyU-FE-kV1" customClass="HYNavigationViewController" sceneMemberID="viewController">
@@ -1560,7 +1560,7 @@ Name</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Hybris Basic Cell" id="MMh-KQ-dc1" customClass="HYBasicCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MMh-KQ-dc1" id="xOy-Hj-iVh">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1580,7 +1580,7 @@ Name</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Hybris Shop Search Cell" rowHeight="55" id="Xgz-LT-Vax" customClass="HYShopSearchCell">
-                                        <rect key="frame" x="0.0" y="130" width="320" height="55"/>
+                                        <rect key="frame" x="0.0" y="66" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xgz-LT-Vax" id="Zzn-Rp-aBk">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
@@ -1648,7 +1648,7 @@ Name</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatorNameCell" rowHeight="35" id="cV8-7e-Liq" userLabel="Title Cell" customClass="HYStoreNameCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="35"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cV8-7e-Liq" id="d33-62-aBs">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
@@ -1669,7 +1669,7 @@ Name</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatoraddressCell" rowHeight="100" id="8QU-K2-rHU" userLabel="Address Cell" customClass="HYStoreLocatorAddressCell">
-                                <rect key="frame" x="0.0" y="121" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="57" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8QU-K2-rHU" id="RWI-pj-lvV">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
@@ -1695,7 +1695,7 @@ United Kingdom</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="StoreLocatorPhoneCell" rowHeight="44" id="D2w-bA-6yI" userLabel="Phone Cell" customClass="HYPhoneNumberCell">
-                                <rect key="frame" x="0.0" y="221" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="157" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D2w-bA-6yI" id="soO-xo-vGn">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1726,7 +1726,7 @@ United Kingdom</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatorFeaturesCell" rowHeight="66" id="k8z-7W-Umg" customClass="HYStoreFeaturesCell">
-                                <rect key="frame" x="0.0" y="265" width="320" height="66"/>
+                                <rect key="frame" x="0.0" y="201" width="320" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k8z-7W-Umg" id="3B0-aE-Oey">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
@@ -1761,7 +1761,7 @@ United Kingdom</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatorHoursCell" rowHeight="172" id="1mn-PK-Ybm" userLabel="Opening Cell" customClass="HYStoreLocatorHoursCell">
-                                <rect key="frame" x="0.0" y="331" width="320" height="172"/>
+                                <rect key="frame" x="0.0" y="267" width="320" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1mn-PK-Ybm" id="txU-gV-NvO">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="172"/>
@@ -1819,7 +1819,7 @@ Sun</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatorMapCell" rowHeight="290" id="A8h-3O-iGv" userLabel="Map Cell" customClass="HYMapViewCell">
-                                <rect key="frame" x="0.0" y="503" width="320" height="290"/>
+                                <rect key="frame" x="0.0" y="439" width="320" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A8h-3O-iGv" id="VFl-hB-iRd">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
@@ -1875,10 +1875,10 @@ Sun</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreLocatorImageCell" rowHeight="220" id="GrU-xH-8kn" customClass="HYStoreLocatorImageCell">
-                                <rect key="frame" x="0.0" y="793" width="320" height="220"/>
+                                <rect key="frame" x="0.0" y="729" width="320" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GrU-xH-8kn" id="oaV-vG-V2K">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="219"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="vDf-0i-rdf">
@@ -1907,7 +1907,7 @@ Sun</string>
             </objects>
             <point key="canvasLocation" x="-912" y="-3909"/>
         </scene>
-        <!--Navigation View Controller - Scan-->
+        <!--Scan-->
         <scene sceneID="8YQ-82-4zL">
             <objects>
                 <navigationController definesPresentationContext="YES" id="jpz-64-80o" customClass="HYNavigationViewController" sceneMemberID="viewController">
@@ -1995,7 +1995,7 @@ Sun</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Hybris Menu Cell" id="44Q-uE-Vhi" customClass="HYCategoryCell">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="44Q-uE-Vhi" id="bzw-2S-vpj">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2033,7 +2033,7 @@ Sun</string>
             </objects>
             <point key="canvasLocation" x="-405" y="-6609"/>
         </scene>
-        <!--Navigation View Controller - Cart-->
+        <!--Cart-->
         <scene sceneID="sUW-MB-svG">
             <objects>
                 <navigationController id="0Yn-7m-Cyu" customClass="HYNavigationViewController" sceneMemberID="viewController">
@@ -2084,7 +2084,7 @@ Sun</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Basic Cell" id="QqQ-ZS-FS5" customClass="HYBasicCell">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QqQ-ZS-FS5" id="la4-TS-7sm">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -2135,7 +2135,7 @@ Sun</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Basic Cell" id="lTJ-fq-cc3" customClass="HYBasicCell">
-                                        <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="50" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lTJ-fq-cc3" id="XhQ-L1-B2q">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -2222,7 +2222,7 @@ Sun</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="OrderListCell" rowHeight="82" id="PUi-H3-R85" customClass="HYOrderListCell">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="82"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PUi-H3-R85" id="2bV-W4-Xmb">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
@@ -2315,7 +2315,7 @@ Sun</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="orderDetailSectionHeaderCell" id="KZd-7g-j49">
-                                        <rect key="frame" x="0.0" y="249" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="180" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KZd-7g-j49" id="n7Q-YA-BeO">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -2332,7 +2332,7 @@ Sun</string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Hybris Product Order Cell" rowHeight="103" id="8GO-NN-3jh" customClass="HYProductOrderCell">
-                                        <rect key="frame" x="0.0" y="293" width="320" height="103"/>
+                                        <rect key="frame" x="0.0" y="224" width="320" height="103"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8GO-NN-3jh" id="ikE-dv-wqZ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="102"/>
@@ -2387,7 +2387,7 @@ Sun</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Hybris Summary Cell" rowHeight="83" id="3nB-LR-I9b" customClass="HYCheckoutSummaryCell">
-                                        <rect key="frame" x="0.0" y="396" width="320" height="83"/>
+                                        <rect key="frame" x="0.0" y="327" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3nB-LR-I9b" id="1m7-Km-AWK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
@@ -2483,7 +2483,7 @@ Sun</string>
             </objects>
             <point key="canvasLocation" x="2844" y="-7181"/>
         </scene>
-        <!--Navigation View Controller - Account-->
+        <!--Account-->
         <scene sceneID="cGc-T3-dVn">
             <objects>
                 <navigationController id="w85-nt-Ce7" customClass="HYNavigationViewController" sceneMemberID="viewController">
